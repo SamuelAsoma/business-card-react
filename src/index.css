@@ -70,7 +70,7 @@ p{
 
 
 .contact-links {
-  margin-top: 1em;
+  margin-top: 0.5em;
   margin-bottom: 2em;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(calc(40% - 5px), 1fr)); 
@@ -85,8 +85,9 @@ p{
 }
 
 .email-link {
-  background-color: #ffffff;
+  background-color: #ffffff; 
   color: #1a1b21;
+  transition: background-color 0.3s ease;
 }
 
 .linkin-link {
@@ -96,8 +97,8 @@ p{
 
 /* link hover effects */
 .email-link:hover {
-  background-color: #1a1b21; 
-  color: #fff; 
+  background-color: #e0e0e0ac; 
+  color: #17181d;
 }
 
 .linkin-link:hover {
